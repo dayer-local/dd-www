@@ -1,0 +1,39 @@
+site_name: Dayerdeb
+site_url: https://blog.pysgod.xyz/
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: nwm-white.png
+  favicon: nwm-white.png
+  palette: 
+    - scheme: default
+      primary: custom 
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - navigation.footer
+
+copyright: Copyright &copy; 2026 <a href="https://blog.pysgod.xyz/copyright/">Pysgod Media/a>W
+  
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - attr_list  # This is needed to make your { width="35%" } and buttons work!
+
+use_directory_urls: true
